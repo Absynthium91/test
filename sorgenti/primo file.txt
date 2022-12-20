@@ -5,5 +5,38 @@ funzione somma(numero1, numero2)
 
     //restituisco il risultato
     restituisci risultato
-Fine    
 
+Fine 
+
+
+scrivere la funzione maggiore che riceve due numeri e restituisce il piu grande
+
+funzione maggiore(numero1, numero2)
+    //verifico quale numero è piu grande
+    se numero1 > numero2
+    allora
+        risultato = numero1
+    altrimenti
+        risultato = numero2
+    end     
+
+    //restituisco il risultato
+    restituisce risultato
+
+Fine       
+
+
+
+scrivere la funzione controllo che riceve due numeri e restituisce uguali se sono uguali, Diversi se sono Diversi
+
+funzione controllo(numero1, numero2)
+    //confronto i 2 numeri
+    se numero1 = numero2
+    allora
+        risultato = "uguali"
+    altrimenti
+        risultato = "diversi"
+    end    
+
+    //restituisco risultato
+    output risultato
